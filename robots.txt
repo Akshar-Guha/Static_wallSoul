@@ -1,0 +1,14 @@
+# Allow all user agents
+User-agent: *
+Allow: /
+
+# Disallow crawling of Next.js build artifacts if exposed
+Disallow: /_next/
+
+# Add sitemap location (update domain later)
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Disallow admin and private pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/ 
